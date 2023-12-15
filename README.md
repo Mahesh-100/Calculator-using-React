@@ -1,6 +1,6 @@
 # React
 my first React project is a basic Calculator.
-I have used useReducer function which all actions 
+I have used useReducer function which includes all actions 
 such as 
 1.add digits(means adding for an Operand)2.
 2.choosing operation
