@@ -1,5 +1,5 @@
 import { useReducer } from "react";
-import DigitButton from "./Digitbutton";
+import DigitButton from "./DigitButton";
 import OperationButton from "./OperationButton";
 import "./style.css";
 
@@ -29,11 +29,11 @@ function reducer(state,{type,payload}){
             if(payload.digit==="." && state.currentOperand.includes(".")){
                 return state
             }
-            return{
+        return{
                 ...state,
-                currentOperand:`${state.currentOperand || ""} ${payload.digit}`,
+                 currentOperand: `${state.currentOperand || ""}${payload.digit}`,
                
-            }
+        }
         case ACTIONS.CHOOSE_OPERATION:
             if(state.currentOperand==null && state.previousOperand==null){
                 return state
