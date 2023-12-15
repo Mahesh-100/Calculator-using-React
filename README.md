@@ -1,5 +1,5 @@
 # React
-my first React project is a basic Calculator
+my first React project is a basic Calculator.
 I have used useReducer function which all actions 
 such as 
 1.add digits(means adding for an Operand)2.
