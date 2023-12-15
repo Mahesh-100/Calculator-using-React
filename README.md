@@ -12,5 +12,5 @@ Another switch case used for selecting the operation in the 'evaluate' function 
 the numbers whcich are returns as strings specified as "en-us" number format by using Intl.NumberFormat() function or method.
 CSS used for styling the Calculator.
 you can see the Calculator--->
-![Alt text](image.png)
+
 
