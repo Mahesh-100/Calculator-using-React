@@ -2,7 +2,7 @@
 my first React project is a basic Calculator.
 I have used useReducer function which includes all actions 
 such as 
-1.add digits(means adding for an Operand)2.
+1.add digits(means adding digits for an Operand)
 2.choosing operation
 3.clear the current calculation
 4.deleting the last digit given in current operand
